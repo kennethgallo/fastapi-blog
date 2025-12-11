@@ -1,0 +1,42 @@
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Tools
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Poetry
+.pypirc
+
+# Pydantic settings / dotenv
+.env*

@@ -39,3 +39,6 @@ def create_comment(blog: BlogModel, id: int,
                    ):
     return {'blog': blog, 'id': id, 'comment_id': comment_title, 'content': content, 
             'version': v, 'comment_id': comment_id}
+
+def required_functionality():
+    return {'message': 'learning FastAPI is important'}

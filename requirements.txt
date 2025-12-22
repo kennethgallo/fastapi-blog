@@ -17,3 +17,6 @@ typing-inspection==0.4.2
 typing_extensions==4.15.0
 uvicorn==0.38.0
 sqlalchemy
+passlib
+passlib[argon2]==1.7.4
+argon2-cffi>=21.3.0
